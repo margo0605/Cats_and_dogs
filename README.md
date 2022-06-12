@@ -1,5 +1,5 @@
 # **Cats and Dogs** 
 
-## Как крестики-нолики, только котики-песики))
+## Как крестики-нолики, только котики-пёсики))
 
 ![](https://media2.giphy.com/media/3oriNKQe0D6uQVjcIM/giphy.webp?cid=ecf05e47mubw2hvzlzjw4nia1g4ikxh3z1mzworpljfvklxy&rid=giphy.webp&ct=g)
