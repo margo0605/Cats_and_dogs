@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fonts/After Cheret Bold.ttf</file>
+        <file>fonts/Dynasty.ttf</file>
+        <file>pic/pngwing.com-12.png</file>
+        <file>pic/pngwing.com-13.png</file>
+        <file>pic/pngwing.com-3.png</file>
+        <file>pic/pngwing.com-6.png</file>
+        <file>pic/pngwing.com-11.png</file>
+    </qresource>
+</RCC>
