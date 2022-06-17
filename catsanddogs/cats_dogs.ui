@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Cats_Dogs</string>
+   <string>Cats&amp;Dogs</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -43,15 +43,33 @@
       </property>
       <property name="minimumSize">
        <size>
-        <width>560</width>
-        <height>560</height>
+        <width>530</width>
+        <height>530</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>560</width>
-        <height>560</height>
+        <width>530</width>
+        <height>530</height>
        </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTabWidget {
+border: none;
+}
+
+QTabWidget:: pane {
+border:none;
+border: 1px solid #222;
+}
+
+QWidget#tab_2 {
+background-color: rgb(33,  40,  50);
+}
+
+
+
+</string>
       </property>
       <property name="currentIndex">
        <number>1</number>
@@ -66,6 +84,21 @@
         <string>Игра</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout">
+        <property name="leftMargin">
+         <number>5</number>
+        </property>
+        <property name="topMargin">
+         <number>5</number>
+        </property>
+        <property name="rightMargin">
+         <number>6</number>
+        </property>
+        <property name="bottomMargin">
+         <number>3</number>
+        </property>
+        <property name="spacing">
+         <number>5</number>
+        </property>
         <item row="4" column="0">
          <widget class="QPushButton" name="pushButton_25">
           <property name="sizePolicy">
@@ -81,7 +114,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -99,8 +132,11 @@
             <height>100</height>
            </size>
           </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -119,7 +155,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -138,7 +174,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -157,7 +193,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -176,7 +212,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -195,7 +231,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -214,7 +250,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -233,7 +269,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -252,7 +288,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -271,7 +307,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -290,7 +326,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -309,7 +345,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -328,7 +364,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -347,7 +383,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -366,7 +402,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -385,7 +421,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -404,7 +440,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -423,7 +459,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -442,7 +478,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -461,7 +497,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -480,7 +516,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -499,7 +535,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -518,7 +554,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -537,7 +573,7 @@
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -579,17 +615,33 @@
       <item>
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>Котики-Пёсики</string>
+         <string>Cats&amp;Dogs</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
         </property>
        </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>50</height>
+         </size>
+        </property>
+       </spacer>
       </item>
       <item>
        <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>победа</string>
+         <string/>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -597,9 +649,25 @@
        </widget>
       </item>
       <item>
+       <spacer name="verticalSpacer_6">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
        <widget class="QLabel" name="label_3">
         <property name="text">
-         <string>Выбери бойца!</string>
+         <string>Choose fighter!</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -621,7 +689,7 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>107</width>
+            <width>130</width>
             <height>78</height>
            </size>
           </property>
@@ -640,7 +708,7 @@
           </property>
           <property name="minimumSize">
            <size>
-            <width>107</width>
+            <width>130</width>
             <height>78</height>
            </size>
           </property>
@@ -685,7 +753,7 @@
          <bool>false</bool>
         </property>
         <property name="text">
-         <string>Играть</string>
+         <string>Play</string>
         </property>
        </widget>
       </item>
@@ -723,7 +791,7 @@
          <bool>false</bool>
         </property>
         <property name="text">
-         <string>Не играть</string>
+         <string>Ignore</string>
         </property>
        </widget>
       </item>
