@@ -31,3 +31,15 @@
 ## __Будь осторожен:heavy_exclamation_mark: Твой соперник хитрее, чем ты думаешь:heavy_exclamation_mark:__
 
 ![](https://media1.giphy.com/media/l2JJDdD7cv4xdGGis/200w.webp?cid=ecf05e47m333hun99oajiyjic8n21p9q1s2wnawgagxjajnj&rid=200w.webp&ct=g)
+
+----------
+----------
+
+
+Источники вдохновения:
+
+1. YouTube
+2. https://www.cyberforum.ru/cpp-beginners/thread1565270.html
+
+
+
