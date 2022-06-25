@@ -9,6 +9,7 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class Cats_Dogs; }
 QT_END_NAMESPACE
 
+/// drdgddctdf
 class Cats_Dogs : public QMainWindow
 {
     Q_OBJECT
