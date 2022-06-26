@@ -1,0 +1,56 @@
+\hypertarget{tests_8h_source}{}\doxysection{tests.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by Маргарита Ведмедева on 25.06.2022.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#ifndef TESTS\_H}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#define TESTS\_H}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <QObject>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <QtTest/QtTest>}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{17 \textcolor{keyword}{class }\mbox{\hyperlink{class_app_test}{AppTest}} : \textcolor{keyword}{public} QObject \{}
+\DoxyCodeLine{18     Q\_OBJECT}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{keyword}{private}:}
+\DoxyCodeLine{21     \textcolor{keywordtype}{bool} myCondition() \{}
+\DoxyCodeLine{22         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{23     \}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \textcolor{keyword}{private}}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27     slots :}
+\DoxyCodeLine{28     \textcolor{keywordtype}{void} initTestCase() \{}
+\DoxyCodeLine{29         qDebug(\textcolor{stringliteral}{"{}Проверка работоспособности игры..."{}});}
+\DoxyCodeLine{30     \}}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32     \textcolor{keywordtype}{void} basicComparison() \{}
+\DoxyCodeLine{33         QVERIFY(\textcolor{keyword}{true});}
+\DoxyCodeLine{34         QCOMPARE(1, 1);}
+\DoxyCodeLine{35     \}}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37     \textcolor{keywordtype}{void} basicComparison2() \{}
+\DoxyCodeLine{38         QVERIFY(myCondition());}
+\DoxyCodeLine{39         QVERIFY(1 != 2);}
+\DoxyCodeLine{40     \}}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{42     \textcolor{keywordtype}{void} playerLock() \{}
+\DoxyCodeLine{43         player = \textcolor{charliteral}{'C'}}
+\DoxyCodeLine{44         \textcolor{keywordflow}{if} (player == \textcolor{charliteral}{'D'}) \{}
+\DoxyCodeLine{45             PlayerLocked = \textcolor{keyword}{false};}
+\DoxyCodeLine{46         \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{47             PlayerLocked = \textcolor{keyword}{true};}
+\DoxyCodeLine{48         \}}
+\DoxyCodeLine{49         QVERIFY(PlayerLocked != \textcolor{keyword}{true});}
+\DoxyCodeLine{50     \}}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{52     \textcolor{keywordtype}{void} cleanupTestCase() \{}
+\DoxyCodeLine{53         qDebug(\textcolor{stringliteral}{"{}Отключение."{}});}
+\DoxyCodeLine{54     \}}
+\DoxyCodeLine{55 \};}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//CATSDOGS\_TESTS\_H}}
+
+\end{DoxyCode}

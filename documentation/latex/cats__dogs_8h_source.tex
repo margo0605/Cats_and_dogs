@@ -1,0 +1,86 @@
+\hypertarget{cats__dogs_8h_source}{}\doxysection{cats\+\_\+dogs.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef CATS\_DOGS\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define CATS\_DOGS\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <QMainWindow>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <QPainter>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <QTimer>}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 QT\_BEGIN\_NAMESPACE}
+\DoxyCodeLine{11 \textcolor{keyword}{namespace }Ui \{ \textcolor{keyword}{class }\mbox{\hyperlink{class_cats___dogs}{Cats\_Dogs}}; \}}
+\DoxyCodeLine{12 QT\_END\_NAMESPACE}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{keyword}{class }\mbox{\hyperlink{class_cats___dogs}{Cats\_Dogs}} : \textcolor{keyword}{public} QMainWindow}
+\DoxyCodeLine{15 \{}
+\DoxyCodeLine{16     Q\_OBJECT}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18 \textcolor{keyword}{public}:}
+\DoxyCodeLine{19     \mbox{\hyperlink{class_cats___dogs}{Cats\_Dogs}}(QWidget *parent = \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{20     \mbox{\hyperlink{class_cats___dogs}{\string~Cats\_Dogs}}();}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{24     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_cats___dogs_a9c3646a26a701dbbad34cd360560b28c}{paintEvent}}(QPaintEvent *event);}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{keyword}{private} slots:}
+\DoxyCodeLine{28     \textcolor{keywordtype}{void} on\_pushButton\_2\_clicked();}
+\DoxyCodeLine{29     \textcolor{keywordtype}{void} on\_pushButton\_clicked();}
+\DoxyCodeLine{30     \textcolor{keywordtype}{void} on\_pushButton\_3\_clicked();}
+\DoxyCodeLine{31     \textcolor{keywordtype}{void} ButtonClicked();}
+\DoxyCodeLine{32     \textcolor{keywordtype}{void} ComputerSlot();}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34     \textcolor{keywordtype}{void} on\_pushButton\_4\_clicked();}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36 \textcolor{keyword}{private}:}
+\DoxyCodeLine{37     Ui::Cats\_Dogs *ui;}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{42     \textcolor{keywordtype}{void} Interface();}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{47     \textcolor{keywordtype}{void} ChangeButton(\textcolor{keywordtype}{int} num);}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49 }
+\DoxyCodeLine{53     \textcolor{keywordtype}{void} ConfTabWidget();}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{55 }
+\DoxyCodeLine{56     \textcolor{keywordtype}{void} ClickButton(\textcolor{keywordtype}{int} row, \textcolor{keywordtype}{int} colum, QString style);}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{61     \textcolor{keywordtype}{void} ConfInitialButtons();}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{66     \textcolor{keywordtype}{void} InitialButtons();}
+\DoxyCodeLine{67 }
+\DoxyCodeLine{71     \textcolor{keywordtype}{void} Start();}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{76     \textcolor{keywordtype}{void} LockPlayer();}
+\DoxyCodeLine{77 }
+\DoxyCodeLine{81     \textcolor{keywordtype}{void} ComputerMove();}
+\DoxyCodeLine{82 }
+\DoxyCodeLine{86     \textcolor{keywordtype}{void} Check();}
+\DoxyCodeLine{87 }
+\DoxyCodeLine{91     \textcolor{keywordtype}{void} GameOver();}
+\DoxyCodeLine{92 }
+\DoxyCodeLine{93 }
+\DoxyCodeLine{94     \textcolor{keywordtype}{char} GameField[5][5] = \{}
+\DoxyCodeLine{95              \{\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'}\},}
+\DoxyCodeLine{96              \{\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'}\},}
+\DoxyCodeLine{97              \{\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'}\},}
+\DoxyCodeLine{98              \{\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'}\},}
+\DoxyCodeLine{99              \{\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'},\textcolor{charliteral}{'-\/'}\},}
+\DoxyCodeLine{100 }
+\DoxyCodeLine{101     \};}
+\DoxyCodeLine{102     \textcolor{keywordtype}{char} player = \textcolor{charliteral}{'D'};}
+\DoxyCodeLine{103     \textcolor{keywordtype}{int} progress = 0;}
+\DoxyCodeLine{104     \textcolor{keywordtype}{bool} GameStart = \textcolor{keyword}{false};}
+\DoxyCodeLine{105     \textcolor{keywordtype}{bool} PlayerLocked = \textcolor{keyword}{true};}
+\DoxyCodeLine{106     QTimer *timer;}
+\DoxyCodeLine{107     \textcolor{keywordtype}{bool} stop;}
+\DoxyCodeLine{108     \textcolor{keywordtype}{char} winner;}
+\DoxyCodeLine{109 }
+\DoxyCodeLine{110 \};}
+\DoxyCodeLine{111 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// CATS\_DOGS\_H}}
+
+\end{DoxyCode}
